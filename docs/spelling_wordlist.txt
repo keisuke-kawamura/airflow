@@ -1422,7 +1422,7 @@ presign
 presigned
 prestocmd
 prestodb
-prettify
+pretify
 prev
 Proc
 proc
