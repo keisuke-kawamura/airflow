@@ -51,14 +51,10 @@ def get_provider_info():
                     "share_type": {
                         "label": "Share Type",
                         "schema": {"type": ["string", "null"], "default": "posix"},
-                        "description": "The share OS type (`posix` or `windows`). "
-                        "Used to determine the formatting of file and folder paths.",
-                    },
+                        "description": "The share OS type (`posix` or `windows`). Used to determine the formatting of file and folder paths.",
+                    }
                 },
-                "ui-field-behaviour": {
-                    "hidden-fields": [],
-                    "relabeling": {"schema": "Share"},
-                },
+                "ui-field-behaviour": {"hidden-fields": [], "relabeling": {"schema": "Share"}},
             }
         ],
     }
